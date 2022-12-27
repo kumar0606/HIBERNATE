@@ -53,6 +53,9 @@ public class students {
 	@Override
 	public String toString() {
 		return "students [sid=" + sid + ", sname=" + sname + ", sfee=" + sfee + ", smail=" + smail + "]";
+	}public static void main(String[] args) {
+		students s=new students(01, "kjd", 345, "swedfg");
+		System.out.println(s);
 	}
 
 	
